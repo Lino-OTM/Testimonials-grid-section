@@ -6,7 +6,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ![](/testimonials-grid-section-main.jpg)
 
-Link: https://lino-otm.github.io/Huddle-landing-page-with-a-single-introductory-section/
+Link: https://lino-otm.github.io/Testimonials-grid-section/
 
 ### Built with: 
 
