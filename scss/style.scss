@@ -1,0 +1,83 @@
+@use "colors";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: colors.$lightGrayishBlue;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  width: 88%;
+  max-width: 530px;
+  margin: 7rem auto 5rem;
+}
+
+.testimonial-card {
+  border-radius: 1rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding: 1rem 3rem 3rem;
+  margin-bottom: 2.5rem;
+
+  &__top-wrapper {
+    display: flex;
+    align-items: center;
+
+    &-img {
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      width: 3rem;
+    }
+
+    &-name {
+      padding-left: 1.5rem;
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+    &-status {
+      font-size: 1.1rem;
+      opacity: 50%;
+      font-weight: 500;
+    }
+  }
+
+  &__title {
+    font-size: 2.08rem;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+
+  &__text {
+    font-size: 1.34rem;
+    font-weight: 500;
+    opacity: 70%;
+    line-height: 2rem;
+  }
+
+  &--purple {
+    background: url("../images/bg-pattern-quotation.svg") colors.$moderateViolet
+      no-repeat top right 2.2rem;
+    color: colors.$white;
+  }
+
+  &--gray {
+    background-color: colors.$veryDarkGrayishBlue;
+    color: colors.$white;
+  }
+
+  &--white {
+    background-color: colors.$white;
+    color: colors.$veryDarkBlackishBlue;
+  }
+
+  &--black {
+    background-color: colors.$veryDarkBlackishBlue;
+    color: colors.$white;
+  }
+}
+
+.attribution { font-size: 1.1rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

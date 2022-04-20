@@ -1,0 +1,79 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ecf2f8;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  width: 88%;
+  max-width: 530px;
+  margin: 7rem auto 5rem;
+}
+
+.testimonial-card {
+  border-radius: 1rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding: 1rem 3rem 3rem;
+  margin-bottom: 2.5rem;
+}
+.testimonial-card__top-wrapper {
+  display: flex;
+  align-items: center;
+}
+.testimonial-card__top-wrapper-img {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 3rem;
+}
+.testimonial-card__top-wrapper-name {
+  padding-left: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.testimonial-card__top-wrapper-status {
+  font-size: 1.1rem;
+  opacity: 50%;
+  font-weight: 500;
+}
+.testimonial-card__title {
+  font-size: 2.08rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.testimonial-card__text {
+  font-size: 1.34rem;
+  font-weight: 500;
+  opacity: 70%;
+  line-height: 2rem;
+}
+.testimonial-card--purple {
+  background: url("../images/bg-pattern-quotation.svg") #7541c8 no-repeat top right 2.2rem;
+  color: white;
+}
+.testimonial-card--gray {
+  background-color: #48556a;
+  color: white;
+}
+.testimonial-card--white {
+  background-color: white;
+  color: #19212e;
+}
+.testimonial-card--black {
+  background-color: #19212e;
+  color: white;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
